@@ -6,7 +6,7 @@ from my_package.main import func1, func2, func3
 
 class TestFunc(unittest.TestCase):
 
-    def test_main(self):
+    def test_func1(self):
         result = func1()
         self.assertEqual(result, True)
 
@@ -20,5 +20,4 @@ class TestFunc(unittest.TestCase):
 
 
 if __name__ == '__main__':
-
     unittest.main()
