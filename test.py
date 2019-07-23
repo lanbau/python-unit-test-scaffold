@@ -2,9 +2,12 @@ import unittest
 
 from my_func import func
 
+# inherit TestCase from unittest module
 
-class TestSum(unittest.TestCase):
-    def test_list_int(self):
+
+class TestFunc(unittest.TestCase):
+
+    def test_whatever(self):
         result = func()
         self.assertEqual(result, True)
 
