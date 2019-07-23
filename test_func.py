@@ -1,14 +1,18 @@
 import unittest
 
-from my_func import func
+from main import *
 
 # inherit TestCase from unittest module
 
 
 class TestFunc(unittest.TestCase):
 
-    def test_whatever(self):
-        result = func()
+    def test_func1(self):
+        result = func1()
+        self.assertEqual(result, True)
+
+    def test_func2(self):
+        result = func2()
         self.assertEqual(result, True)
 
 
