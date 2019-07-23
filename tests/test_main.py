@@ -4,12 +4,9 @@ import unittest
 from my_package.func1 import func1
 
 
-# inherit TestCase from unittest module
-
-
 class TestFunc(unittest.TestCase):
 
-    def test_func1(self):
+    def test_main(self):
         result = func1()
         self.assertEqual(result, True)
 
@@ -18,7 +15,7 @@ class TestFunc(unittest.TestCase):
     #     self.assertEqual(result, True)
 
 
-print('name:')
+print('nested')
 print(__name__)
 
 if __name__ == '__main__':
