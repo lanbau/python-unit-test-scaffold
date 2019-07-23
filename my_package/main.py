@@ -3,4 +3,8 @@ def func1(*args):
 
 
 def func2(*args):
-    return True
+    return False
+
+
+def func3(*args):
+    return '123'

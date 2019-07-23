@@ -5,5 +5,5 @@
 
 # Commands
 ```
-python -m unittest test
+python -m unittest
 ```
