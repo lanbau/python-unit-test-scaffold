@@ -5,8 +5,8 @@ from my_func import func
 
 class TestSum(unittest.TestCase):
     def test_list_int(self):
-        result = sum()
-        self.assertEqual(result, true)
+        result = func()
+        self.assertEqual(result, True)
 
 
 if __name__ == '__main__':

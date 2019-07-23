@@ -1,2 +1,2 @@
-def func(arg):
-    return true
+def func(*args):
+    return True
